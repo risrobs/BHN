@@ -27,3 +27,8 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+@media (max-width: 600px) {
+        .hidden-mobile {
+          display: none;
+        }
+      }
